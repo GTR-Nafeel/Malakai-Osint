@@ -842,5 +842,3 @@ Improvements, bug reports, and feature requests are welcome!
 
 MIT License
 
-VirusTotal API: 61ac0b0db884b1339ec1633225d9c59dfa8b7ee9033886bee59fdb78fcda63bd
-Shodan API: WyQUaaBx3HPi6C7cbZ8FESyyUS7EjmjF
