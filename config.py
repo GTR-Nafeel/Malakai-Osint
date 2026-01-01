@@ -4,11 +4,11 @@ API keys and settings for threat intelligence integration
 """
 
 # Shodan API Configuration
-SHODAN_API_KEY = "WyQUaaBx3HPi6C7cbZ8FESyyUS7EjmjF"
+SHODAN_API_KEY = "Enter Shodan API Key Here"
 SHODAN_BASE_URL = "https://api.shodan.io"
 
 # VirusTotal API Configuration
-VIRUSTOTAL_API_KEY = "61ac0b0db884b1339ec1633225d9c59dfa8b7ee9033886bee59fdb78fcda63bd"
+VIRUSTOTAL_API_KEY = "Enter VirusTotal API Key Here"
 VIRUSTOTAL_BASE_URL = "https://www.virustotal.com/api/v3"
 
 # Have I Been Pwned API Configuration
