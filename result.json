@@ -1,0 +1,127 @@
+{
+  "target": "example.com",
+  "timestamp": "2025-11-29T14:46:22.412932",
+  "analysis": {
+    "domain_ip": {
+      "domain": "example.com",
+      "ip_address": "23.220.75.232",
+      "ipv6_address": null,
+      "http_status": 200,
+      "server_info": "Not specified in headers",
+      "technologies": [],
+      "ssl_info": {
+        "issuer": {
+          "countryName": "US",
+          "organizationName": "DigiCert Inc",
+          "commonName": "DigiCert Global G3 TLS ECC SHA384 2020 CA1"
+        },
+        "subject": {
+          "countryName": "US",
+          "stateOrProvinceName": "California",
+          "localityName": "Los Angeles",
+          "organizationName": "Internet Corporation for Assigned Names and Numbers",
+          "commonName": "*.example.com"
+        },
+        "expires": "Jan 15 23:59:59 2026 GMT",
+        "version": 3
+      }
+    },
+    "subdomains": {
+      "domain": "example.com",
+      "subdomains": [
+        "m.testexample.com",
+        "www.example.com"
+      ],
+      "discovery_methods": [
+        "dns_bruteforce",
+        "certificate_transparency"
+      ]
+    },
+    "dns_records": {
+      "domain": "example.com",
+      "records": {
+        "A": [
+          "23.220.75.232",
+          "23.220.75.245",
+          "23.192.228.80",
+          "23.192.228.84",
+          "23.215.0.136",
+          "23.215.0.138"
+        ],
+        "AAAA": [
+          "2600:1406:bc00:53::b81e:94c8",
+          "2600:1406:5e00:6::17ce:bc1b",
+          "2600:1406:5e00:6::17ce:bc12",
+          "2600:1408:ec00:36::1736:7f31",
+          "2600:1408:ec00:36::1736:7f24",
+          "2600:1406:bc00:53::b81e:94ce"
+        ],
+        "MX": [
+          {
+            "preference": 0,
+            "exchange": "."
+          }
+        ],
+        "NS": [
+          "a.iana-servers.net.",
+          "b.iana-servers.net."
+        ],
+        "TXT": [
+          "\"v=spf1 -all\"",
+          "\"_k2n1y4vw3qtb4skdx9e7dxt97qrmmq9\""
+        ],
+        "SOA": [
+          {
+            "mname": "ns.icann.org.",
+            "rname": "noc.dns.icann.org.",
+            "serial": 2025111915,
+            "refresh": 7200,
+            "retry": 3600,
+            "expire": 1209600,
+            "minimum": 3600
+          }
+        ]
+      },
+      "dns_servers": [
+        "b.iana-servers.net.",
+        "a.iana-servers.net."
+      ],
+      "zone_transfer": {
+        "b.iana-servers.net.": "Zone transfer failed",
+        "a.iana-servers.net.": "Zone transfer failed"
+      }
+    },
+    "whois": {
+      "domain": "example.com",
+      "raw_data": "{\n  \"domain_name\": \"EXAMPLE.COM\",\n  \"registrar\": \"RESERVED-Internet Assigned Numbers Authority\",\n  \"registrar_url\": \"http://res-dom.iana.org\",\n  \"reseller\": null,\n  \"whois_server\": \"whois.iana.org\",\n  \"referral_url\": null,\n  \"updated_date\": \"2025-11-25 18:49:24+00:00\",\n  \"creation_date\": \"1995-08-14 04:00:00+00:00\",\n  \"expiration_date\": \"2026-08-13 04:00:00+00:00\",\n  \"name_servers\": [\n    \"A.IANA-SERVERS.NET\",\n    \"B.IANA-SERVERS.NET\"\n  ],\n  \"status\": [\n    \"clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited\",\n    \"clientTransferProhibited https://icann.org/epp#clientTransferProhibited\",\n    \"clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited\"\n  ],\n  \"emails\": null,\n  \"dnssec\": \"signedDelegation\",\n  \"name\": null,\n  \"org\": null,\n  \"address\": null,\n  \"city\": null,\n  \"state\": null,\n  \"registrant_postal_code\": null,\n  \"country\": null,\n  \"tech_name\": null,\n  \"tech_org\": null,\n  \"admin_name\": null,\n  \"admin_org\": null\n}",
+      "parsed_data": {
+        "domain_name": "EXAMPLE.COM",
+        "registrar": "RESERVED-Internet Assigned Numbers Authority",
+        "creation_date": "1995-08-14 04:00:00",
+        "expiration_date": "2026-08-13 04:00:00",
+        "updated_date": "2025-11-25 18:49:24",
+        "name_servers": [
+          "A.IANA-SERVERS.NET",
+          "B.IANA-SERVERS.NET"
+        ]
+      }
+    },
+    "geolocation": {
+      "ip": "23.220.75.232",
+      "geolocation": {
+        "country": "United States",
+        "country_code": "US",
+        "region": "California",
+        "city": "Los Angeles",
+        "latitude": 34.0544,
+        "longitude": -118.244,
+        "timezone": "America/Los_Angeles",
+        "asn": "AS20940 Akamai International B.V.",
+        "org": "Akamai Technologies, Inc.",
+        "isp": "Akamai International B.V."
+      },
+      "asn_info": {},
+      "threat_intel": {}
+    }
+  }
+}

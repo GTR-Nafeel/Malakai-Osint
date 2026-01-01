@@ -1,0 +1,17 @@
+requests
+dnspython
+python-whois
+scikit-learn
+numpy
+urllib3
+beautifulsoup4
+lxml
+colorama
+tqdm
+rich
+ipwhois
+geopy
+pyfiglet
+cryptography
+python-nmap
+openai
